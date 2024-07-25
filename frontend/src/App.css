@@ -1,0 +1,89 @@
+:root {
+    --color-primary: #F97316;
+    --color-secondary: #F97316;
+    --color-dark: #1E3A8A;
+    --color-accent: #7C3AED;
+    --color-coral: #FB7185;
+    --color-yellow: #FDE68A;
+    --color-light-bg: #FFFFFF;
+    --color-dark-text: #111827;
+}
+
+body {
+    background-color: var(--color-light-bg);
+    color: var(--color-dark-text);
+}
+
+.navbar {
+    background-color: var(--color-light-bg);
+    border-bottom: 2px solid var(--color-light-bg);
+}
+
+.nav-link {
+    color: var(--color-dark-text) !important;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: var(--color-primary) !important;
+}
+
+.dropdown-toggle {
+    background-color: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
+    color: var(--color-light-bg) !important;
+}
+
+.dropdown-menu {
+    background-color: var(--color-light-bg);
+    border-color: var(--color-light-bg);
+}
+
+.dropdown-item-text, .dropdown-item {
+    color: var(--color-dark-text);
+}
+
+.footer {
+    background-color: var(--color-dark);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: var(--color-light-bg);
+}
+
+.footer .nav-link, .footer .social-icons a {
+    color: var(--color-light-bg) !important;
+}
+
+.footer .social-icons a:hover {
+    color: var(--color-primary) !important;
+}
+
+.button-primary {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+    color: var(--color-light-bg);
+}
+
+.button-primary:hover {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: var(--color-dark-text);
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 30px;
+}

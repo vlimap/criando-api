@@ -1,0 +1,4 @@
+.username {
+    margin-left: 2px; /* Espaçamento entre a imagem e o nome do usuário */
+    text-transform: capitalize; /* Inicial maiúscula para cada palavra */
+}

@@ -1,0 +1,18 @@
+.text-center {
+    text-align: center;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.button-primary {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+    color: var(--color-light-bg);
+}
+
+.button-primary:hover {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}

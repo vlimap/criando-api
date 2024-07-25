@@ -1,0 +1,25 @@
+.footer {
+    background-color: var(--color-dark);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: var(--color-light-bg);
+}
+
+.footer .nav-link {
+    margin-bottom: 10px;
+    color: var(--color-light-bg) !important;
+}
+
+.footer .nav-link:hover {
+    color: var(--color-primary) !important;
+}
+
+.footer .social-icons a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: var(--color-light-bg);
+}
+
+.footer .social-icons a:hover {
+    color: var(--color-primary);
+}
