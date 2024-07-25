@@ -24,7 +24,7 @@ A API de Gerenciamento de Pessoas é uma interface de programação de aplicativ
 1. **Clone o Repositório**
 
    ```bash
-   git clone <URL-do-repositório>
+   git clone https://github.com/vlimap/criando-api.git
    cd criando-api/backend
    ```
 
